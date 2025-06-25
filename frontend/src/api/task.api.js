@@ -1,1 +1,1 @@
-export const TASK_API="http://localhost:8000/api/task";
+export const TASK_API="https://taskmanagerwebapp-backend.onrender.com/api/task";
