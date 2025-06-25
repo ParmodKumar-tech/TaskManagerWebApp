@@ -22,11 +22,7 @@ export default function TaskDialog({ open, onClose, onTaskAdded, value }) {
       return;
     }
 
-    if (value && value.id) {
-      onUpdateTask();
-    } else {
       onAddTask();
-    }
   };
 
   const onAddTask = async () => {
